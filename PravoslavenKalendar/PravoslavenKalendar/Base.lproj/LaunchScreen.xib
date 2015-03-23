@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36P-e9-xm3">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_cross" translatesAutoresizingMaskIntoConstraints="NO" id="nD6-VL-ecA">
+                            <rect key="frame" x="229" y="230" width="141" height="141"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="nD6-VL-ecA" secondAttribute="height" multiplier="1:1" id="8wh-pg-5wf"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="nD6-VL-ecA" secondAttribute="centerX" id="lYx-yp-ZOF"/>
+                        <constraint firstItem="nD6-VL-ecA" firstAttribute="width" secondItem="36P-e9-xm3" secondAttribute="width" multiplier="0.235" id="nEi-kr-qqT"/>
+                        <constraint firstAttribute="centerY" secondItem="nD6-VL-ecA" secondAttribute="centerY" id="nnH-Eb-L8C"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.9882352941176471" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="36P-e9-xm3" secondAttribute="bottom" id="2P2-66-WPL"/>
+                <constraint firstItem="36P-e9-xm3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GwW-kr-lMF"/>
+                <constraint firstItem="36P-e9-xm3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bsi-sv-deW"/>
+                <constraint firstAttribute="trailing" secondItem="36P-e9-xm3" secondAttribute="trailing" id="k7d-1D-eud"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholder_cross" width="132" height="132"/>
+    </resources>
+</document>

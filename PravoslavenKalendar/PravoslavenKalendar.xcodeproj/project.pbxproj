@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662C32231AB968C400DB0B0C /* button_favorites_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662C321D1AB968C400DB0B0C /* button_favorites_normal@2x.png */; };
+		662C32241AB968C400DB0B0C /* button_favorites_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662C321E1AB968C400DB0B0C /* button_favorites_normal@3x.png */; };
+		662C32251AB968C400DB0B0C /* button_favorites_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662C321F1AB968C400DB0B0C /* button_favorites_selected@2x.png */; };
+		662C32261AB968C400DB0B0C /* button_favorites_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662C32201AB968C400DB0B0C /* button_favorites_selected@3x.png */; };
+		662C322A1AB9899300DB0B0C /* ColorsAndFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C32291AB9899300DB0B0C /* ColorsAndFonts.m */; };
+		662CBD851ABAB2AF00C254D1 /* placeholder_downloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662CBD831ABAB2AF00C254D1 /* placeholder_downloading@2x.png */; };
+		662CBD861ABAB2AF00C254D1 /* placeholder_downloading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662CBD841ABAB2AF00C254D1 /* placeholder_downloading@3x.png */; };
+		662CBD881ABAB94400C254D1 /* placeholder_error_download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 662CBD871ABAB94400C254D1 /* placeholder_error_download.jpg */; };
+		662CBD8A1ABAC79000C254D1 /* placeholder_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 662CBD891ABAC79000C254D1 /* placeholder_cross.png */; };
+		66415B131AA8D47E00FD11F7 /* fasting_view_oil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B111AA8D47E00FD11F7 /* fasting_view_oil@2x.png */; };
+		66415B141AA8D47E00FD11F7 /* fasting_view_oil@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B121AA8D47E00FD11F7 /* fasting_view_oil@3x.png.png */; };
+		66415B171AA8D5B400FD11F7 /* fasting_view_strict_fasting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B151AA8D5B400FD11F7 /* fasting_view_strict_fasting@2x.png */; };
+		66415B181AA8D5B400FD11F7 /* fasting_view_strict_fasting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B161AA8D5B400FD11F7 /* fasting_view_strict_fasting@3x.png */; };
+		66415B1B1AA8D7DE00FD11F7 /* fasting_view_diary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B191AA8D7DE00FD11F7 /* fasting_view_diary@2x.png */; };
+		66415B1C1AA8D7DE00FD11F7 /* fasting_view_diary@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B1A1AA8D7DE00FD11F7 /* fasting_view_diary@3x.png */; };
+		66415B1F1AA8D90C00FD11F7 /* fasting_view_fish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B1D1AA8D90C00FD11F7 /* fasting_view_fish@2x.png */; };
+		66415B201AA8D90C00FD11F7 /* fasting_view_fish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B1E1AA8D90C00FD11F7 /* fasting_view_fish@3x.png */; };
+		66415B231AA8DAE000FD11F7 /* fasting_view_wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B211AA8DAE000FD11F7 /* fasting_view_wine@2x.png */; };
+		66415B241AA8DAE000FD11F7 /* fasting_view_wine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B221AA8DAE000FD11F7 /* fasting_view_wine@3x.png */; };
+		66415B271AA8DC3B00FD11F7 /* fasting_view_meat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B251AA8DC3B00FD11F7 /* fasting_view_meat@2x.png */; };
+		66415B281AA8DC3B00FD11F7 /* fasting_view_meat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66415B261AA8DC3B00FD11F7 /* fasting_view_meat@3x.png */; };
+		66C032841AA8F708008B9CD5 /* OrthodoxWeekPageControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C032831AA8F708008B9CD5 /* OrthodoxWeekPageControll.m */; };
+		66CE66E61ABFFAB90007365D /* button_calendar_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66E41ABFFAB90007365D /* button_calendar_normal.png */; };
+		66CE66E71ABFFAB90007365D /* button_share_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66E51ABFFAB90007365D /* button_share_normal.png */; };
+		66CE66EA1ABFFB6B0007365D /* button_favorites_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66E81ABFFB6B0007365D /* button_favorites_normal.png */; };
+		66CE66EB1ABFFB6B0007365D /* button_favorites_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66E91ABFFB6B0007365D /* button_favorites_selected.png */; };
+		66CE66F31ABFFC0D0007365D /* fasting_view_diary.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66EC1ABFFC0D0007365D /* fasting_view_diary.png */; };
+		66CE66F41ABFFC0D0007365D /* fasting_view_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66ED1ABFFC0D0007365D /* fasting_view_fish.png */; };
+		66CE66F51ABFFC0D0007365D /* fasting_view_meat.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66EE1ABFFC0D0007365D /* fasting_view_meat.png */; };
+		66CE66F61ABFFC0D0007365D /* fasting_view_oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66EF1ABFFC0D0007365D /* fasting_view_oil.png */; };
+		66CE66F71ABFFC0D0007365D /* fasting_view_strict_fasting.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66F01ABFFC0D0007365D /* fasting_view_strict_fasting.png */; };
+		66CE66F81ABFFC0D0007365D /* fasting_view_water.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66F11ABFFC0D0007365D /* fasting_view_water.png */; };
+		66CE66F91ABFFC0D0007365D /* fasting_view_wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66F21ABFFC0D0007365D /* fasting_view_wine.png */; };
+		66CE66FB1ABFFC660007365D /* placeholder_downloading.png in Resources */ = {isa = PBXBuildFile; fileRef = 66CE66FA1ABFFC660007365D /* placeholder_downloading.png */; };
+		66FFC5BE1AB6EF5E0085ED7B /* OrthodoxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC5BD1AB6EF5E0085ED7B /* OrthodoxImageView.m */; };
+		66FFC5C71AB830720085ED7B /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC5C51AB830720085ED7B /* CalendarViewController.m */; };
+		66FFC5C81AB830720085ED7B /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FFC5C61AB830720085ED7B /* CalendarViewController.xib */; };
+		66FFC5CE1AB8800E0085ED7B /* OrthodoxJSONDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC5CD1AB8800E0085ED7B /* OrthodoxJSONDataProvider.m */; };
+		66FFC5D21AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC5D11AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.m */; };
+		7C9A8BEB03CD2095C99BE5AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3B03FFFB8969198EA60477 /* libPods.a */; };
+		872E02B61AA70B9E00FD767C /* button_calendar_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872E02B21AA70B9E00FD767C /* button_calendar_normal@2x.png */; };
+		872E02B71AA70B9E00FD767C /* button_calendar_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872E02B31AA70B9E00FD767C /* button_calendar_normal@3x.png */; };
+		872E02B81AA70B9E00FD767C /* button_share_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872E02B41AA70B9E00FD767C /* button_share_normal@2x.png */; };
+		872E02B91AA70B9E00FD767C /* button_share_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872E02B51AA70B9E00FD767C /* button_share_normal@3x.png */; };
+		873797811AA5B4CC002C25A7 /* OrthodoxDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873797801AA5B4CC002C25A7 /* OrthodoxDayViewController.xib */; };
+		8737978B1AA5F38D002C25A7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8737978A1AA5F38D002C25A7 /* MainViewController.xib */; };
+		8737978E1AA5F5FF002C25A7 /* UtilDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737978D1AA5F5FF002C25A7 /* UtilDates.m */; };
+		87493D421AA4C5580037753C /* OrthodoxDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87493D411AA4C5580037753C /* OrthodoxDayViewController.m */; };
+		875C98741AA99B490017F327 /* kapak.otf in Resources */ = {isa = PBXBuildFile; fileRef = 875C98731AA99B490017F327 /* kapak.otf */; };
+		8789FF2D1AA8961100D586BC /* OrthodoxFastingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8789FF2B1AA8961100D586BC /* OrthodoxFastingView.m */; };
+		8789FF341AA89A1E00D586BC /* OrthodoxFastingViewHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8789FF331AA89A1E00D586BC /* OrthodoxFastingViewHolder.m */; };
+		8789FF381AA89B9E00D586BC /* fasting_view_water@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8789FF361AA89B9E00D586BC /* fasting_view_water@2x.png */; };
+		8789FF391AA89B9E00D586BC /* fasting_view_water@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8789FF371AA89B9E00D586BC /* fasting_view_water@3x.png */; };
+		879A8F381AA4739C00907ACF /* 2015.json in Resources */ = {isa = PBXBuildFile; fileRef = 879A8F371AA4739C00907ACF /* 2015.json */; };
+		879A8F3B1AA4769900907ACF /* OrthodoxHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = 879A8F3A1AA4769900907ACF /* OrthodoxHoliday.m */; };
+		879A8F3E1AA476E400907ACF /* OrthodoxDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 879A8F3D1AA476E400907ACF /* OrthodoxDay.m */; };
+		879A8F491AA4A88700907ACF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879A8F481AA4A88700907ACF /* MainViewController.m */; };
+		879AB13D1AAED3AC00129346 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 879AB13C1AAED3AB00129346 /* UIImageEffects.m */; };
+		879AB1401AAED92700129346 /* UtilOrthodoxStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 879AB13F1AAED92700129346 /* UtilOrthodoxStrings.m */; };
+		87A4D6E41A9DC3CB00FB60AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A4D6E31A9DC3CB00FB60AE /* Images.xcassets */; };
+		87A4D6E71A9DC3CB00FB60AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A4D6E51A9DC3CB00FB60AE /* LaunchScreen.xib */; };
+		87A4D6F31A9DC3CB00FB60AE /* PravoslavenKalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A4D6F21A9DC3CB00FB60AE /* PravoslavenKalendarTests.m */; };
+		87A4D7001A9DD50E00FB60AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A4D6FE1A9DD50E00FB60AE /* AppDelegate.m */; };
+		87A4D7011A9DD50E00FB60AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A4D6FF1A9DD50E00FB60AE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A4D6ED1A9DC3CB00FB60AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A4D6CB1A9DC3CB00FB60AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A4D6D21A9DC3CB00FB60AE;
+			remoteInfo = PravoslavenKalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C3B03FFFB8969198EA60477 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8F4C18BBBBFE33FC28676 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		662C321D1AB968C400DB0B0C /* button_favorites_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_favorites_normal@2x.png"; sourceTree = "<group>"; };
+		662C321E1AB968C400DB0B0C /* button_favorites_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_favorites_normal@3x.png"; sourceTree = "<group>"; };
+		662C321F1AB968C400DB0B0C /* button_favorites_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_favorites_selected@2x.png"; sourceTree = "<group>"; };
+		662C32201AB968C400DB0B0C /* button_favorites_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_favorites_selected@3x.png"; sourceTree = "<group>"; };
+		662C32281AB9899300DB0B0C /* ColorsAndFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsAndFonts.h; sourceTree = "<group>"; };
+		662C32291AB9899300DB0B0C /* ColorsAndFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsAndFonts.m; sourceTree = "<group>"; };
+		662CBD831ABAB2AF00C254D1 /* placeholder_downloading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_downloading@2x.png"; sourceTree = "<group>"; };
+		662CBD841ABAB2AF00C254D1 /* placeholder_downloading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_downloading@3x.png"; sourceTree = "<group>"; };
+		662CBD871ABAB94400C254D1 /* placeholder_error_download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder_error_download.jpg; sourceTree = "<group>"; };
+		662CBD891ABAC79000C254D1 /* placeholder_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_cross.png; sourceTree = "<group>"; };
+		66415B111AA8D47E00FD11F7 /* fasting_view_oil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_oil@2x.png"; sourceTree = "<group>"; };
+		66415B121AA8D47E00FD11F7 /* fasting_view_oil@3x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_oil@3x.png.png"; sourceTree = "<group>"; };
+		66415B151AA8D5B400FD11F7 /* fasting_view_strict_fasting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_strict_fasting@2x.png"; sourceTree = "<group>"; };
+		66415B161AA8D5B400FD11F7 /* fasting_view_strict_fasting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_strict_fasting@3x.png"; sourceTree = "<group>"; };
+		66415B191AA8D7DE00FD11F7 /* fasting_view_diary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_diary@2x.png"; sourceTree = "<group>"; };
+		66415B1A1AA8D7DE00FD11F7 /* fasting_view_diary@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_diary@3x.png"; sourceTree = "<group>"; };
+		66415B1D1AA8D90C00FD11F7 /* fasting_view_fish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_fish@2x.png"; sourceTree = "<group>"; };
+		66415B1E1AA8D90C00FD11F7 /* fasting_view_fish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_fish@3x.png"; sourceTree = "<group>"; };
+		66415B211AA8DAE000FD11F7 /* fasting_view_wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_wine@2x.png"; sourceTree = "<group>"; };
+		66415B221AA8DAE000FD11F7 /* fasting_view_wine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_wine@3x.png"; sourceTree = "<group>"; };
+		66415B251AA8DC3B00FD11F7 /* fasting_view_meat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_meat@2x.png"; sourceTree = "<group>"; };
+		66415B261AA8DC3B00FD11F7 /* fasting_view_meat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_meat@3x.png"; sourceTree = "<group>"; };
+		669E40C81ABB68C50036D3A7 /* UtilConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilConstraints.h; sourceTree = "<group>"; };
+		66C032821AA8F708008B9CD5 /* OrthodoxWeekPageControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxWeekPageControll.h; sourceTree = "<group>"; };
+		66C032831AA8F708008B9CD5 /* OrthodoxWeekPageControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxWeekPageControll.m; sourceTree = "<group>"; };
+		66CE66E41ABFFAB90007365D /* button_calendar_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_calendar_normal.png; sourceTree = "<group>"; };
+		66CE66E51ABFFAB90007365D /* button_share_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_share_normal.png; sourceTree = "<group>"; };
+		66CE66E81ABFFB6B0007365D /* button_favorites_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_favorites_normal.png; sourceTree = "<group>"; };
+		66CE66E91ABFFB6B0007365D /* button_favorites_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_favorites_selected.png; sourceTree = "<group>"; };
+		66CE66EC1ABFFC0D0007365D /* fasting_view_diary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_diary.png; sourceTree = "<group>"; };
+		66CE66ED1ABFFC0D0007365D /* fasting_view_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_fish.png; sourceTree = "<group>"; };
+		66CE66EE1ABFFC0D0007365D /* fasting_view_meat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_meat.png; sourceTree = "<group>"; };
+		66CE66EF1ABFFC0D0007365D /* fasting_view_oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_oil.png; sourceTree = "<group>"; };
+		66CE66F01ABFFC0D0007365D /* fasting_view_strict_fasting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_strict_fasting.png; sourceTree = "<group>"; };
+		66CE66F11ABFFC0D0007365D /* fasting_view_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_water.png; sourceTree = "<group>"; };
+		66CE66F21ABFFC0D0007365D /* fasting_view_wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasting_view_wine.png; sourceTree = "<group>"; };
+		66CE66FA1ABFFC660007365D /* placeholder_downloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_downloading.png; sourceTree = "<group>"; };
+		66FFC5BC1AB6EF5E0085ED7B /* OrthodoxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxImageView.h; sourceTree = "<group>"; };
+		66FFC5BD1AB6EF5E0085ED7B /* OrthodoxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxImageView.m; sourceTree = "<group>"; };
+		66FFC5C41AB830720085ED7B /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		66FFC5C51AB830720085ED7B /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		66FFC5C61AB830720085ED7B /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		66FFC5CB1AB8800E0085ED7B /* OrthodoxDataProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxDataProviderProtocol.h; sourceTree = "<group>"; };
+		66FFC5CC1AB8800E0085ED7B /* OrthodoxJSONDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxJSONDataProvider.h; sourceTree = "<group>"; };
+		66FFC5CD1AB8800E0085ED7B /* OrthodoxJSONDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxJSONDataProvider.m; sourceTree = "<group>"; };
+		66FFC5CF1AB8804D0085ED7B /* OrthodoxFavoritesManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxFavoritesManagerProtocol.h; sourceTree = "<group>"; };
+		66FFC5D01AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxFavoritesManagerUserDefaults.h; sourceTree = "<group>"; };
+		66FFC5D11AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxFavoritesManagerUserDefaults.m; sourceTree = "<group>"; };
+		872E02B21AA70B9E00FD767C /* button_calendar_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_calendar_normal@2x.png"; sourceTree = "<group>"; };
+		872E02B31AA70B9E00FD767C /* button_calendar_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_calendar_normal@3x.png"; sourceTree = "<group>"; };
+		872E02B41AA70B9E00FD767C /* button_share_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_share_normal@2x.png"; sourceTree = "<group>"; };
+		872E02B51AA70B9E00FD767C /* button_share_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_share_normal@3x.png"; sourceTree = "<group>"; };
+		873797801AA5B4CC002C25A7 /* OrthodoxDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrthodoxDayViewController.xib; sourceTree = "<group>"; };
+		8737978A1AA5F38D002C25A7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8737978C1AA5F5FF002C25A7 /* UtilDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilDates.h; sourceTree = "<group>"; };
+		8737978D1AA5F5FF002C25A7 /* UtilDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilDates.m; sourceTree = "<group>"; };
+		87493D401AA4C5580037753C /* OrthodoxDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxDayViewController.h; sourceTree = "<group>"; };
+		87493D411AA4C5580037753C /* OrthodoxDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxDayViewController.m; sourceTree = "<group>"; };
+		875C98731AA99B490017F327 /* kapak.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kapak.otf; sourceTree = "<group>"; };
+		8789FF2A1AA8961100D586BC /* OrthodoxFastingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxFastingView.h; sourceTree = "<group>"; };
+		8789FF2B1AA8961100D586BC /* OrthodoxFastingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxFastingView.m; sourceTree = "<group>"; };
+		8789FF321AA89A1E00D586BC /* OrthodoxFastingViewHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxFastingViewHolder.h; sourceTree = "<group>"; };
+		8789FF331AA89A1E00D586BC /* OrthodoxFastingViewHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxFastingViewHolder.m; sourceTree = "<group>"; };
+		8789FF361AA89B9E00D586BC /* fasting_view_water@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_water@2x.png"; sourceTree = "<group>"; };
+		8789FF371AA89B9E00D586BC /* fasting_view_water@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fasting_view_water@3x.png"; sourceTree = "<group>"; };
+		879A8F371AA4739C00907ACF /* 2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2015.json; sourceTree = "<group>"; };
+		879A8F391AA4769900907ACF /* OrthodoxHoliday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxHoliday.h; sourceTree = "<group>"; };
+		879A8F3A1AA4769900907ACF /* OrthodoxHoliday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxHoliday.m; sourceTree = "<group>"; };
+		879A8F3C1AA476E400907ACF /* OrthodoxDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrthodoxDay.h; sourceTree = "<group>"; };
+		879A8F3D1AA476E400907ACF /* OrthodoxDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrthodoxDay.m; sourceTree = "<group>"; };
+		879A8F471AA4A88700907ACF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		879A8F481AA4A88700907ACF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		879AB13B1AAED3AB00129346 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		879AB13C1AAED3AB00129346 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		879AB13E1AAED92700129346 /* UtilOrthodoxStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilOrthodoxStrings.h; sourceTree = "<group>"; };
+		879AB13F1AAED92700129346 /* UtilOrthodoxStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilOrthodoxStrings.m; sourceTree = "<group>"; };
+		87A4D6D31A9DC3CB00FB60AE /* PravoslavenKalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PravoslavenKalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A4D6E31A9DC3CB00FB60AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87A4D6E61A9DC3CB00FB60AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		87A4D6EC1A9DC3CB00FB60AE /* PravoslavenKalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PravoslavenKalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A4D6F11A9DC3CB00FB60AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A4D6F21A9DC3CB00FB60AE /* PravoslavenKalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PravoslavenKalendarTests.m; sourceTree = "<group>"; };
+		87A4D6FD1A9DD50E00FB60AE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87A4D6FE1A9DD50E00FB60AE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87A4D6FF1A9DD50E00FB60AE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87A4D7091A9DD88C00FB60AE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E3C8B2DF0E437F35F1CF5D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A4D6D01A9DC3CB00FB60AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9A8BEB03CD2095C99BE5AD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A4D6E91A9DC3CB00FB60AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662C32081AB9648700DB0B0C /* FavoritesButton */ = {
+			isa = PBXGroup;
+			children = (
+				66CE66E81ABFFB6B0007365D /* button_favorites_normal.png */,
+				662C321D1AB968C400DB0B0C /* button_favorites_normal@2x.png */,
+				662C321E1AB968C400DB0B0C /* button_favorites_normal@3x.png */,
+				66CE66E91ABFFB6B0007365D /* button_favorites_selected.png */,
+				662C321F1AB968C400DB0B0C /* button_favorites_selected@2x.png */,
+				662C32201AB968C400DB0B0C /* button_favorites_selected@3x.png */,
+			);
+			path = FavoritesButton;
+			sourceTree = "<group>";
+		};
+		662C32271AB9897E00DB0B0C /* ColorsAndFonts */ = {
+			isa = PBXGroup;
+			children = (
+				662C32281AB9899300DB0B0C /* ColorsAndFonts.h */,
+				662C32291AB9899300DB0B0C /* ColorsAndFonts.m */,
+			);
+			path = ColorsAndFonts;
+			sourceTree = "<group>";
+		};
+		662CBD821ABAB25E00C254D1 /* Placeholders */ = {
+			isa = PBXGroup;
+			children = (
+				662CBD891ABAC79000C254D1 /* placeholder_cross.png */,
+				662CBD871ABAB94400C254D1 /* placeholder_error_download.jpg */,
+				66CE66FA1ABFFC660007365D /* placeholder_downloading.png */,
+				662CBD831ABAB2AF00C254D1 /* placeholder_downloading@2x.png */,
+				662CBD841ABAB2AF00C254D1 /* placeholder_downloading@3x.png */,
+			);
+			path = Placeholders;
+			sourceTree = "<group>";
+		};
+		66C032811AA8F6DB008B9CD5 /* OrthodoxWeekPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				66C032821AA8F708008B9CD5 /* OrthodoxWeekPageControll.h */,
+				66C032831AA8F708008B9CD5 /* OrthodoxWeekPageControll.m */,
+			);
+			path = OrthodoxWeekPageControl;
+			sourceTree = "<group>";
+		};
+		66FFC5BB1AB6EF3B0085ED7B /* OrthodoxImageView */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC5BC1AB6EF5E0085ED7B /* OrthodoxImageView.h */,
+				66FFC5BD1AB6EF5E0085ED7B /* OrthodoxImageView.m */,
+			);
+			path = OrthodoxImageView;
+			sourceTree = "<group>";
+		};
+		66FFC5C91AB880090085ED7B /* OrthodoxFavoritesManager */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC5CF1AB8804D0085ED7B /* OrthodoxFavoritesManagerProtocol.h */,
+				66FFC5D01AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.h */,
+				66FFC5D11AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.m */,
+			);
+			path = OrthodoxFavoritesManager;
+			sourceTree = "<group>";
+		};
+		66FFC5CA1AB8800E0085ED7B /* OrthodoxDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC5CB1AB8800E0085ED7B /* OrthodoxDataProviderProtocol.h */,
+				66FFC5CC1AB8800E0085ED7B /* OrthodoxJSONDataProvider.h */,
+				66FFC5CD1AB8800E0085ED7B /* OrthodoxJSONDataProvider.m */,
+			);
+			path = OrthodoxDataProvider;
+			sourceTree = "<group>";
+		};
+		872E02AC1AA70A5000FD767C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				662CBD821ABAB25E00C254D1 /* Placeholders */,
+				8789FF351AA89B9E00D586BC /* OrthodoxFastingView */,
+				872E02AD1AA70A5000FD767C /* Buttons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		872E02AD1AA70A5000FD767C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				662C32081AB9648700DB0B0C /* FavoritesButton */,
+				872E02B21AA70B9E00FD767C /* button_calendar_normal@2x.png */,
+				66CE66E41ABFFAB90007365D /* button_calendar_normal.png */,
+				872E02B31AA70B9E00FD767C /* button_calendar_normal@3x.png */,
+				66CE66E51ABFFAB90007365D /* button_share_normal.png */,
+				872E02B41AA70B9E00FD767C /* button_share_normal@2x.png */,
+				872E02B51AA70B9E00FD767C /* button_share_normal@3x.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		873797821AA5BFC0002C25A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				879AB13E1AAED92700129346 /* UtilOrthodoxStrings.h */,
+				879AB13F1AAED92700129346 /* UtilOrthodoxStrings.m */,
+				879AB13B1AAED3AB00129346 /* UIImageEffects.h */,
+				879AB13C1AAED3AB00129346 /* UIImageEffects.m */,
+				8737978C1AA5F5FF002C25A7 /* UtilDates.h */,
+				8737978D1AA5F5FF002C25A7 /* UtilDates.m */,
+				669E40C81ABB68C50036D3A7 /* UtilConstraints.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		873797841AA5CD39002C25A7 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				662C32271AB9897E00DB0B0C /* ColorsAndFonts */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		875C98721AA99B490017F327 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				875C98731AA99B490017F327 /* kapak.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8789FF231AA8875300D586BC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC5BB1AB6EF3B0085ED7B /* OrthodoxImageView */,
+				66C032811AA8F6DB008B9CD5 /* OrthodoxWeekPageControl */,
+				8789FF2F1AA8980500D586BC /* OrthodoxFastingViewHolder */,
+				8789FF291AA8961100D586BC /* OrthodoxFastingView */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		8789FF291AA8961100D586BC /* OrthodoxFastingView */ = {
+			isa = PBXGroup;
+			children = (
+				8789FF2A1AA8961100D586BC /* OrthodoxFastingView.h */,
+				8789FF2B1AA8961100D586BC /* OrthodoxFastingView.m */,
+			);
+			path = OrthodoxFastingView;
+			sourceTree = "<group>";
+		};
+		8789FF2F1AA8980500D586BC /* OrthodoxFastingViewHolder */ = {
+			isa = PBXGroup;
+			children = (
+				8789FF321AA89A1E00D586BC /* OrthodoxFastingViewHolder.h */,
+				8789FF331AA89A1E00D586BC /* OrthodoxFastingViewHolder.m */,
+			);
+			path = OrthodoxFastingViewHolder;
+			sourceTree = "<group>";
+		};
+		8789FF351AA89B9E00D586BC /* OrthodoxFastingView */ = {
+			isa = PBXGroup;
+			children = (
+				66CE66EE1ABFFC0D0007365D /* fasting_view_meat.png */,
+				66415B251AA8DC3B00FD11F7 /* fasting_view_meat@2x.png */,
+				66415B261AA8DC3B00FD11F7 /* fasting_view_meat@3x.png */,
+				66CE66F21ABFFC0D0007365D /* fasting_view_wine.png */,
+				66415B211AA8DAE000FD11F7 /* fasting_view_wine@2x.png */,
+				66415B221AA8DAE000FD11F7 /* fasting_view_wine@3x.png */,
+				66CE66ED1ABFFC0D0007365D /* fasting_view_fish.png */,
+				66415B1D1AA8D90C00FD11F7 /* fasting_view_fish@2x.png */,
+				66415B1E1AA8D90C00FD11F7 /* fasting_view_fish@3x.png */,
+				66CE66EC1ABFFC0D0007365D /* fasting_view_diary.png */,
+				66415B191AA8D7DE00FD11F7 /* fasting_view_diary@2x.png */,
+				66415B1A1AA8D7DE00FD11F7 /* fasting_view_diary@3x.png */,
+				66CE66F01ABFFC0D0007365D /* fasting_view_strict_fasting.png */,
+				66415B151AA8D5B400FD11F7 /* fasting_view_strict_fasting@2x.png */,
+				66415B161AA8D5B400FD11F7 /* fasting_view_strict_fasting@3x.png */,
+				66CE66EF1ABFFC0D0007365D /* fasting_view_oil.png */,
+				66415B111AA8D47E00FD11F7 /* fasting_view_oil@2x.png */,
+				66415B121AA8D47E00FD11F7 /* fasting_view_oil@3x.png.png */,
+				66CE66F11ABFFC0D0007365D /* fasting_view_water.png */,
+				8789FF361AA89B9E00D586BC /* fasting_view_water@2x.png */,
+				8789FF371AA89B9E00D586BC /* fasting_view_water@3x.png */,
+			);
+			path = OrthodoxFastingView;
+			sourceTree = "<group>";
+		};
+		879A8F361AA4739C00907ACF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				879A8F371AA4739C00907ACF /* 2015.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		879A8F3F1AA4830E00907ACF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC5CA1AB8800E0085ED7B /* OrthodoxDataProvider */,
+				66FFC5C91AB880090085ED7B /* OrthodoxFavoritesManager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		87A4D6CA1A9DC3CB00FB60AE = {
+			isa = PBXGroup;
+			children = (
+				87A4D6D51A9DC3CB00FB60AE /* PravoslavenKalendar */,
+				87A4D6EF1A9DC3CB00FB60AE /* PravoslavenKalendarTests */,
+				87A4D6D41A9DC3CB00FB60AE /* Products */,
+				D95B9DB34BEF5B517A1F3129 /* Pods */,
+				A0652E452A962F4B5F0251F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87A4D6D41A9DC3CB00FB60AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A4D6D31A9DC3CB00FB60AE /* PravoslavenKalendar.app */,
+				87A4D6EC1A9DC3CB00FB60AE /* PravoslavenKalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A4D6D51A9DC3CB00FB60AE /* PravoslavenKalendar */ = {
+			isa = PBXGroup;
+			children = (
+				87A4D7081A9DD87700FB60AE /* Resources */,
+				87A4D7071A9DD86100FB60AE /* Models */,
+				87A4D7061A9DD84500FB60AE /* Library */,
+				87A4D7021A9DD79400FB60AE /* Controllers */,
+				87A4D6FC1A9DD50E00FB60AE /* Application */,
+				87A4D6E31A9DC3CB00FB60AE /* Images.xcassets */,
+				87A4D6E51A9DC3CB00FB60AE /* LaunchScreen.xib */,
+			);
+			path = PravoslavenKalendar;
+			sourceTree = "<group>";
+		};
+		87A4D6EF1A9DC3CB00FB60AE /* PravoslavenKalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A4D6F21A9DC3CB00FB60AE /* PravoslavenKalendarTests.m */,
+				87A4D6F01A9DC3CB00FB60AE /* Supporting Files */,
+			);
+			path = PravoslavenKalendarTests;
+			sourceTree = "<group>";
+		};
+		87A4D6F01A9DC3CB00FB60AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A4D6F11A9DC3CB00FB60AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A4D6FC1A9DD50E00FB60AE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				87A4D6FD1A9DD50E00FB60AE /* AppDelegate.h */,
+				87A4D6FE1A9DD50E00FB60AE /* AppDelegate.m */,
+				87A4D6FF1A9DD50E00FB60AE /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		87A4D7021A9DD79400FB60AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				879A8F471AA4A88700907ACF /* MainViewController.h */,
+				879A8F481AA4A88700907ACF /* MainViewController.m */,
+				8737978A1AA5F38D002C25A7 /* MainViewController.xib */,
+				87493D401AA4C5580037753C /* OrthodoxDayViewController.h */,
+				87493D411AA4C5580037753C /* OrthodoxDayViewController.m */,
+				873797801AA5B4CC002C25A7 /* OrthodoxDayViewController.xib */,
+				66FFC5C41AB830720085ED7B /* CalendarViewController.h */,
+				66FFC5C51AB830720085ED7B /* CalendarViewController.m */,
+				66FFC5C61AB830720085ED7B /* CalendarViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		87A4D7061A9DD84500FB60AE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8789FF231AA8875300D586BC /* Controls */,
+				873797841AA5CD39002C25A7 /* Interface */,
+				873797821AA5BFC0002C25A7 /* Utils */,
+				879A8F3F1AA4830E00907ACF /* Services */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		87A4D7071A9DD86100FB60AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				879A8F391AA4769900907ACF /* OrthodoxHoliday.h */,
+				879A8F3A1AA4769900907ACF /* OrthodoxHoliday.m */,
+				879A8F3C1AA476E400907ACF /* OrthodoxDay.h */,
+				879A8F3D1AA476E400907ACF /* OrthodoxDay.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		87A4D7081A9DD87700FB60AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				875C98721AA99B490017F327 /* Fonts */,
+				872E02AC1AA70A5000FD767C /* Images */,
+				879A8F361AA4739C00907ACF /* Data */,
+				87A4D7091A9DD88C00FB60AE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0652E452A962F4B5F0251F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C3B03FFFB8969198EA60477 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D95B9DB34BEF5B517A1F3129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2E3C8B2DF0E437F35F1CF5D /* Pods.debug.xcconfig */,
+				3FC8F4C18BBBBFE33FC28676 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A4D6D21A9DC3CB00FB60AE /* PravoslavenKalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A4D6F61A9DC3CB00FB60AE /* Build configuration list for PBXNativeTarget "PravoslavenKalendar" */;
+			buildPhases = (
+				0D67070A81E7329095142695 /* Check Pods Manifest.lock */,
+				87A4D6CF1A9DC3CB00FB60AE /* Sources */,
+				87A4D6D01A9DC3CB00FB60AE /* Frameworks */,
+				87A4D6D11A9DC3CB00FB60AE /* Resources */,
+				5708A4CFCDE2B0B91FEF8429 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PravoslavenKalendar;
+			productName = PravoslavenKalendar;
+			productReference = 87A4D6D31A9DC3CB00FB60AE /* PravoslavenKalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87A4D6EB1A9DC3CB00FB60AE /* PravoslavenKalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A4D6F91A9DC3CB00FB60AE /* Build configuration list for PBXNativeTarget "PravoslavenKalendarTests" */;
+			buildPhases = (
+				87A4D6E81A9DC3CB00FB60AE /* Sources */,
+				87A4D6E91A9DC3CB00FB60AE /* Frameworks */,
+				87A4D6EA1A9DC3CB00FB60AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A4D6EE1A9DC3CB00FB60AE /* PBXTargetDependency */,
+			);
+			name = PravoslavenKalendarTests;
+			productName = PravoslavenKalendarTests;
+			productReference = 87A4D6EC1A9DC3CB00FB60AE /* PravoslavenKalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A4D6CB1A9DC3CB00FB60AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Mihail Stevchev";
+				TargetAttributes = {
+					87A4D6D21A9DC3CB00FB60AE = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7UJR3R8VME;
+					};
+					87A4D6EB1A9DC3CB00FB60AE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 87A4D6D21A9DC3CB00FB60AE;
+					};
+				};
+			};
+			buildConfigurationList = 87A4D6CE1A9DC3CB00FB60AE /* Build configuration list for PBXProject "PravoslavenKalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A4D6CA1A9DC3CB00FB60AE;
+			productRefGroup = 87A4D6D41A9DC3CB00FB60AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A4D6D21A9DC3CB00FB60AE /* PravoslavenKalendar */,
+				87A4D6EB1A9DC3CB00FB60AE /* PravoslavenKalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A4D6D11A9DC3CB00FB60AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CE66FB1ABFFC660007365D /* placeholder_downloading.png in Resources */,
+				66415B241AA8DAE000FD11F7 /* fasting_view_wine@3x.png in Resources */,
+				66CE66F61ABFFC0D0007365D /* fasting_view_oil.png in Resources */,
+				662C32231AB968C400DB0B0C /* button_favorites_normal@2x.png in Resources */,
+				662CBD861ABAB2AF00C254D1 /* placeholder_downloading@3x.png in Resources */,
+				66415B171AA8D5B400FD11F7 /* fasting_view_strict_fasting@2x.png in Resources */,
+				66415B281AA8DC3B00FD11F7 /* fasting_view_meat@3x.png in Resources */,
+				872E02B71AA70B9E00FD767C /* button_calendar_normal@3x.png in Resources */,
+				662C32241AB968C400DB0B0C /* button_favorites_normal@3x.png in Resources */,
+				662C32251AB968C400DB0B0C /* button_favorites_selected@2x.png in Resources */,
+				66CE66EA1ABFFB6B0007365D /* button_favorites_normal.png in Resources */,
+				66415B1B1AA8D7DE00FD11F7 /* fasting_view_diary@2x.png in Resources */,
+				66415B131AA8D47E00FD11F7 /* fasting_view_oil@2x.png in Resources */,
+				8789FF391AA89B9E00D586BC /* fasting_view_water@3x.png in Resources */,
+				66415B1F1AA8D90C00FD11F7 /* fasting_view_fish@2x.png in Resources */,
+				872E02B61AA70B9E00FD767C /* button_calendar_normal@2x.png in Resources */,
+				872E02B91AA70B9E00FD767C /* button_share_normal@3x.png in Resources */,
+				66FFC5C81AB830720085ED7B /* CalendarViewController.xib in Resources */,
+				66415B231AA8DAE000FD11F7 /* fasting_view_wine@2x.png in Resources */,
+				66CE66F31ABFFC0D0007365D /* fasting_view_diary.png in Resources */,
+				66CE66E71ABFFAB90007365D /* button_share_normal.png in Resources */,
+				66415B1C1AA8D7DE00FD11F7 /* fasting_view_diary@3x.png in Resources */,
+				66CE66F51ABFFC0D0007365D /* fasting_view_meat.png in Resources */,
+				66CE66E61ABFFAB90007365D /* button_calendar_normal.png in Resources */,
+				66415B201AA8D90C00FD11F7 /* fasting_view_fish@3x.png in Resources */,
+				873797811AA5B4CC002C25A7 /* OrthodoxDayViewController.xib in Resources */,
+				66CE66F41ABFFC0D0007365D /* fasting_view_fish.png in Resources */,
+				8737978B1AA5F38D002C25A7 /* MainViewController.xib in Resources */,
+				66415B271AA8DC3B00FD11F7 /* fasting_view_meat@2x.png in Resources */,
+				66415B141AA8D47E00FD11F7 /* fasting_view_oil@3x.png.png in Resources */,
+				662C32261AB968C400DB0B0C /* button_favorites_selected@3x.png in Resources */,
+				66CE66F81ABFFC0D0007365D /* fasting_view_water.png in Resources */,
+				662CBD851ABAB2AF00C254D1 /* placeholder_downloading@2x.png in Resources */,
+				875C98741AA99B490017F327 /* kapak.otf in Resources */,
+				8789FF381AA89B9E00D586BC /* fasting_view_water@2x.png in Resources */,
+				662CBD881ABAB94400C254D1 /* placeholder_error_download.jpg in Resources */,
+				87A4D6E71A9DC3CB00FB60AE /* LaunchScreen.xib in Resources */,
+				66CE66F91ABFFC0D0007365D /* fasting_view_wine.png in Resources */,
+				66CE66EB1ABFFB6B0007365D /* button_favorites_selected.png in Resources */,
+				872E02B81AA70B9E00FD767C /* button_share_normal@2x.png in Resources */,
+				879A8F381AA4739C00907ACF /* 2015.json in Resources */,
+				662CBD8A1ABAC79000C254D1 /* placeholder_cross.png in Resources */,
+				66415B181AA8D5B400FD11F7 /* fasting_view_strict_fasting@3x.png in Resources */,
+				87A4D6E41A9DC3CB00FB60AE /* Images.xcassets in Resources */,
+				66CE66F71ABFFC0D0007365D /* fasting_view_strict_fasting.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A4D6EA1A9DC3CB00FB60AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D67070A81E7329095142695 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5708A4CFCDE2B0B91FEF8429 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A4D6CF1A9DC3CB00FB60AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879A8F3E1AA476E400907ACF /* OrthodoxDay.m in Sources */,
+				87A4D7001A9DD50E00FB60AE /* AppDelegate.m in Sources */,
+				87493D421AA4C5580037753C /* OrthodoxDayViewController.m in Sources */,
+				66FFC5BE1AB6EF5E0085ED7B /* OrthodoxImageView.m in Sources */,
+				879A8F3B1AA4769900907ACF /* OrthodoxHoliday.m in Sources */,
+				662C322A1AB9899300DB0B0C /* ColorsAndFonts.m in Sources */,
+				66FFC5C71AB830720085ED7B /* CalendarViewController.m in Sources */,
+				8737978E1AA5F5FF002C25A7 /* UtilDates.m in Sources */,
+				8789FF341AA89A1E00D586BC /* OrthodoxFastingViewHolder.m in Sources */,
+				66FFC5D21AB881130085ED7B /* OrthodoxFavoritesManagerUserDefaults.m in Sources */,
+				879AB1401AAED92700129346 /* UtilOrthodoxStrings.m in Sources */,
+				87A4D7011A9DD50E00FB60AE /* main.m in Sources */,
+				66C032841AA8F708008B9CD5 /* OrthodoxWeekPageControll.m in Sources */,
+				66FFC5CE1AB8800E0085ED7B /* OrthodoxJSONDataProvider.m in Sources */,
+				879A8F491AA4A88700907ACF /* MainViewController.m in Sources */,
+				879AB13D1AAED3AC00129346 /* UIImageEffects.m in Sources */,
+				8789FF2D1AA8961100D586BC /* OrthodoxFastingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A4D6E81A9DC3CB00FB60AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A4D6F31A9DC3CB00FB60AE /* PravoslavenKalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A4D6EE1A9DC3CB00FB60AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A4D6D21A9DC3CB00FB60AE /* PravoslavenKalendar */;
+			targetProxy = 87A4D6ED1A9DC3CB00FB60AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87A4D6E51A9DC3CB00FB60AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A4D6E61A9DC3CB00FB60AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A4D6F41A9DC3CB00FB60AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Stevchev (E57ZL4826S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87A4D6F51A9DC3CB00FB60AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Stevchev (E57ZL4826S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A4D6F71A9DC3CB00FB60AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E3C8B2DF0E437F35F1CF5D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Stevchev (E57ZL4826S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PravoslavenKalendar/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		87A4D6F81A9DC3CB00FB60AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC8F4C18BBBBFE33FC28676 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mihail Stevcev (7UJR3R8VME)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PravoslavenKalendar/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Release;
+		};
+		87A4D6FA1A9DC3CB00FB60AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PravoslavenKalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PravoslavenKalendar.app/PravoslavenKalendar";
+			};
+			name = Debug;
+		};
+		87A4D6FB1A9DC3CB00FB60AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PravoslavenKalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PravoslavenKalendar.app/PravoslavenKalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A4D6CE1A9DC3CB00FB60AE /* Build configuration list for PBXProject "PravoslavenKalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A4D6F41A9DC3CB00FB60AE /* Debug */,
+				87A4D6F51A9DC3CB00FB60AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A4D6F61A9DC3CB00FB60AE /* Build configuration list for PBXNativeTarget "PravoslavenKalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A4D6F71A9DC3CB00FB60AE /* Debug */,
+				87A4D6F81A9DC3CB00FB60AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A4D6F91A9DC3CB00FB60AE /* Build configuration list for PBXNativeTarget "PravoslavenKalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A4D6FA1A9DC3CB00FB60AE /* Debug */,
+				87A4D6FB1A9DC3CB00FB60AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A4D6CB1A9DC3CB00FB60AE /* Project object */;
+}
